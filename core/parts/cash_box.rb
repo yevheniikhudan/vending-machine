@@ -22,7 +22,7 @@ class CashBox
   # In case when the repository does not have enough change coins returns all that can be gathered
   #
   # @param [Integer] change_amount The amount of change to be gathered
-  # @return [Array<Integer>] An array of coins with a total value equal to the change amount
+  # @return [Array<Integer>] An array of coins sorted in descending order
   def gather_change(change_amount:)
     change_result = []
     @inventory.filter { |_, v| v.positive? }.keys.sort.reverse.each do |av_coin|
