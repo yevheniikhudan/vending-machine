@@ -1,5 +1,5 @@
 require './spec/support/shared_examples/accountable'
-require './core/parts/cash_box'
+require './app/components/cash_box'
 
 RSpec.describe CashBox do
   subject(:cash_box) { described_class.new(initiate_empty: true) }

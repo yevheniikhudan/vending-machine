@@ -11,11 +11,14 @@ Design a vending machine:
 
 ### Docker approach
 ```console
-   docker build -t vending-machine
+   docker build -t vending-machine .
    docker run -i -t vending-machine
 ```
 
 ### Native approach
+#### Requirements
+- Ruby 3.2.2
+
 ```console
    bundle install
    ruby ./run.rb

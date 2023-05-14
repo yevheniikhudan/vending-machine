@@ -1,4 +1,4 @@
-require './core/behaviors/accountable'
+require './app/behaviors/accountable'
 
 # Showcase class for managing products
 class Showcase

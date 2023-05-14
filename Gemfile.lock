@@ -60,6 +60,7 @@ GEM
     wisper (2.0.1)
 
 PLATFORMS
+  ruby
   arm64-darwin-22
 
 DEPENDENCIES

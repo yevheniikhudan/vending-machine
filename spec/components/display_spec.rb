@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require './core/parts/display'
+require './app/components/display'
 
 RSpec.describe Display do
   subject(:display) { Display.new(prompt:) }

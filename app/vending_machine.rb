@@ -1,6 +1,6 @@
-require './core/parts/display'
-require './core/parts/showcase'
-require './core/parts/cash_box'
+require './app/components/display'
+require './app/components/showcase'
+require './app/components/cash_box'
 
 # VendingMachine class represents a vending machine object that allows users to select a product
 # and pay for it using coins.

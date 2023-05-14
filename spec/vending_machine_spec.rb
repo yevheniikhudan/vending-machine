@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require './core/vending_machine'
-require './core/parts/showcase'
-require './core/parts/cash_box'
+require './app/vending_machine'
+require './app/components/showcase'
+require './app/components/cash_box'
 
 RSpec.describe VendingMachine do
   subject(:start_vending_machine) { vending_machine.start }

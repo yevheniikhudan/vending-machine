@@ -1,4 +1,4 @@
-require './core/behaviors/accountable'
+require './app/behaviors/accountable'
 
 # CashBox class for managing coins
 class CashBox

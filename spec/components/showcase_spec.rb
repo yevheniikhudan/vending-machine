@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require './core/parts/showcase'
+require './app/components/showcase'
 require './spec/support/shared_examples/accountable'
 
 RSpec.describe Showcase do

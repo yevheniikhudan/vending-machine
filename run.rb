@@ -1,3 +1,3 @@
-require './core/vending_machine'
+require './app/vending_machine'
 
 VendingMachine.new.start
